@@ -16,35 +16,35 @@ namespace OOP_assesment_one_2
             List<string> Long = new List<string>();
 
             //goes through each element of the list of the words 
-            for(int i = 0; i< words.Length; i++)
+            for (int i = 0; i < words.Length; i++)
             {
                 //checks if the word is greater then 7 letters long 
-                if(words[i].Length >= 7)
+                if (words[i].Length >= 7)
                 {
                     //adds it to the list of long words
                     Long.Add(words[i]);
                 }
             }
-            
+
             //sets the file path to where the code is saved 
             string path = @"MyTest.txt";
-            
+
             // Create a file to write to
             using (StreamWriter sw = File.CreateText(path))
             {
                 //goes through the long word list 
-                for(int i = 0; i < Long.Count; i++)
+                for (int i = 0; i < Long.Count; i++)
                 {
                     //writes all the ele
                     sw.WriteLine(Long[i]);
                 }
             }
-            
+
 
 
         }
 
-        
+
 
 
     }

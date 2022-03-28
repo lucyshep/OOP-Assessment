@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace OOP_assesment_one_2
 {
@@ -11,8 +12,6 @@ namespace OOP_assesment_one_2
          
         //Handles the text input for Assessment 1
         string text;
-
-        
 
         //Method: manualTextInput
         //Arguments: none

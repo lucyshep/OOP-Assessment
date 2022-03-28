@@ -10,7 +10,7 @@ namespace OOP_assesment_one_2
     {
         public void LongWord(string text)
         {
-            //creates list to add each word to  
+            //creates list to add each word to. 
             string[] words = text.Split(' ');
             //creates list of the long words 
             List<string> Long = new List<string>();

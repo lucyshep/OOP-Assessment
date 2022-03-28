@@ -16,7 +16,7 @@ namespace OOP_assesment_one_2
             bool valid = false;
             bool valid2 = false;
 
-            //sets the file directory 
+            //sets the file directory. 
             string file;
 
             //Local list of integers to hold the first five measurements of the text

@@ -8,7 +8,7 @@ namespace OOP_assesment_one_2
 {
     class Report
     {
-        //Handles the reporting of the analysis
+        //Handles the reporting of the analysis.
         //Maybe have different methods for different formats of output?
         //eg.   public void outputConsole(List<int>)
         public void Output(List<int> values)

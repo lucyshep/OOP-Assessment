@@ -10,7 +10,7 @@ namespace OOP_assesment_one_2
     public class Input
     {
          
-        //Handles the text input for Assessment 1
+        //Handles the text input for Assessment 1.
         string text;
 
         //Method: manualTextInput

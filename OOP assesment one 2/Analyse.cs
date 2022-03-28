@@ -8,7 +8,7 @@ namespace OOP_assesment_one_2
 {
     public class Analyse
     {
-        //Handles the analysis of text
+        //Handles the analysis of text.
         //Method: analyseText
         //Arguments: string
         //Returns: list of integers
